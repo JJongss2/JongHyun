@@ -1,5 +1,5 @@
-a, b = input().split()          # 공백을 기준으로 자료를 분리
-a, b = int(a), int(b), int(c)   # 분리한 자료를 정수 자료형으로 반환 
+a, b, c = input().split()          # 공백을 기준으로 자료를 분리
+a, b, c = int(a), int(b), int(c)   # 분리한 자료를 정수 자료형으로 반환 
 
 def GCD3(x,y,z):             # 두 정수의 최대공약수를 구하고 구한 값과 나머지 한 정수의 최대공약수를 구하기
 	while(y):
