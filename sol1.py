@@ -24,5 +24,5 @@ print(GCD3(a,b,c))                 # 최대공약수 출력
 print(LCM3(a,b,c))                 # 최소공배수 출력
 
 # 컴퓨터전자시스템공학부 201901060 김종현
-# pullrequest를 위한 수정 
-# pullrequest를 위한 동시수정
+#pullrequest를 위한 수정 
+#pullrequest를 위한 동시수정
