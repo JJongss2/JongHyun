@@ -23,6 +23,9 @@ def LCM3(x,y,z):                   # 유클리드 알고리즘을 사용하여 �
 print(GCD3(a,b,c))                 # 최대공약수 출력
 print(LCM3(a,b,c))                 # 최소공배수 출력
 
+gap = GCD3(a,b,c) - LCM3(a,b,c)
+print("최대공약수와 최소공배수의 차이는 ", gap)
+
 # 컴퓨터전자시스템공학부 201901060 김종현
 # pullrequest를 위한 수정 
 # pullrequest를 위한 동시수정
