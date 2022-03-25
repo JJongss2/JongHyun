@@ -27,3 +27,5 @@ print(LCM3(a,b,c))                 # 최소공배수 출력
 # pullrequest를 위한 수정 
 # pullrequest를 위한 동시수정
 # pullrequest를 위한 동시수정 by JJOngss2
+Touched by lsy
+# pr용 
