@@ -1,5 +1,15 @@
+#Touched by dh
 # this file is touched by JJong-ss
 
+def is_leapyear(x):                                 #윤년 구하는 알고리즘
+    if(x%400==0):
+        return True
+    elif(x%100==0):
+        return False
+    elif(x%4==0):
+        return True
+    else:
+        return False
 
 a, b ,c = [int(x) for x in input().split()]   # 분리한 자료를 정수 자료형으로 반환 / 공백을 기준으로 자료를 분리
 
